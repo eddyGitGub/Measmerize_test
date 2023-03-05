@@ -55,5 +55,5 @@ function findIndexAfter(nodesById, siblings, previousSiblingId) {
 fs.writeFile('./output/result.json', JSON.stringify(tree, null, 2), (err) => {
  if (err) throw err;
 });
-  console.log(JSON.stringify(tree, null, 2));
+
   
